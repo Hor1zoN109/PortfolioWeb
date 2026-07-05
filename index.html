@@ -1,0 +1,385 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio of Barry Xu — visual, brand, AI and UI designer."
+    />
+    <title>Barry Xu — Visual / Brand / AI Designer</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <div class="intro" aria-hidden="true">
+      <div class="intro__mark logo-mark">
+        <svg class="intro-logo" viewBox="0 0 164 164" role="img" aria-label="BX logo">
+          <path class="intro-logo__line intro-logo__line--left" pathLength="1" d="M2 2h80v40l-40 40 40 40v40H2V2Z" />
+          <path class="intro-logo__line intro-logo__line--right" pathLength="1" d="M162 2v40l-40 40 40 40v40" />
+          <path class="intro-logo__line intro-logo__line--diamond" pathLength="1" d="M82 42l40 40-40 40-40-40 40-40Z" />
+          <path class="intro-logo__accent" pathLength="1" d="M82 72l10 10-10 10-10-10 10-10Z" />
+        </svg>
+      </div>
+    </div>
+
+    <div class="noise" aria-hidden="true"></div>
+    <div class="logo-field" aria-hidden="true"></div>
+    <div class="cursor-dot" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Barry Xu, back to top">
+        <span class="brand__mark logo-mark">
+          <img src="./assets/logo.svg" alt="" />
+        </span>
+        <span>BARRY XU</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span>MENU</span>
+        <i></i>
+      </button>
+
+      <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#advantages">Advantages</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <span class="availability"><i></i> Available for opportunities</span>
+    </header>
+
+    <main id="top">
+      <section class="hero section-grid" aria-labelledby="hero-title">
+        <div class="hero__pattern" aria-hidden="true"></div>
+        <div class="hero__orbit hero__orbit--one" aria-hidden="true"></div>
+        <div class="hero__orbit hero__orbit--two" aria-hidden="true"></div>
+
+        <div class="hero__index mono">PORTFOLIO / 2026</div>
+        <div class="hero__role mono">VISUAL · BRAND · AI · UI</div>
+
+        <div class="hero__content">
+          <p class="eyebrow reveal">Hello, I’m Barry — a multidisciplinary designer.</p>
+          <h1 id="hero-title" class="reveal">
+            <span>Design</span>
+            <span class="hero-title__outline">at the edge</span>
+            <span>of Tomorrow</span>
+          </h1>
+          <div class="hero__footer reveal">
+            <p>
+              A quiet visual language shaped by dark space, precise grids, abstract
+              geometry, and future-facing structure — building visual systems where
+              logic meets atmosphere.
+            </p>
+            <a class="text-link" href="#projects">Explore projects <span>↘</span></a>
+          </div>
+        </div>
+
+        <div class="hero__scroll mono">SCROLL TO EXPLORE <span>↓</span></div>
+      </section>
+
+      <section id="about" class="about page-shell">
+        <div class="section-heading reveal">
+          <p class="eyebrow">01 / About</p>
+          <h2>A systems-minded designer working across image, identity and interaction.</h2>
+        </div>
+
+        <div class="profile-board reveal">
+          <div class="profile-left">
+            <figure class="profile-portrait">
+              <img src="./assets/profile-portrait-cropped.jpg" alt="Portrait of Barry Xu" />
+              <figcaption class="mono">ZHANGQI BARRY XU</figcaption>
+            </figure>
+
+            <div class="profile-contact-grid">
+              <div class="profile-cell profile-cell--location">
+                <img class="profile-icon" src="./assets/icons/location.svg" alt="" aria-hidden="true" />
+                <p>Hamilton</p>
+              </div>
+              <div class="profile-cell">
+                <img class="profile-icon" src="./assets/icons/phone.svg" alt="" aria-hidden="true" />
+                <p>027 366 5480</p>
+              </div>
+              <div class="profile-cell">
+                <img class="profile-icon" src="./assets/icons/email.svg" alt="" aria-hidden="true" />
+                <p>barry19x@gmail.com</p>
+              </div>
+              <div class="profile-cell profile-education">
+                <div class="education-entry">
+                <span class="mono">2018–2022 Bachelor<br />University of Waikato Joint Institute<br />at Zhejiang University City College</span>
+                <p>Bachelor of Industrial Design<br />Bachelor of Computer Graphic Design</p>
+                </div>
+                <div class="education-entry">
+                <span class="mono">2022–2024 Master<br />University of Waikato</span>
+                <p>Master of Design</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-table" aria-label="Skill table">
+            <div class="skill-column skill-column--graphic">
+              <p class="skill-label">Graphic Design</p>
+              <div class="skill-item">
+                <img src="./assets/icons/ai.svg" alt="" aria-hidden="true" />
+                <span>Adobe<br />Illustrator</span>
+              </div>
+              <div class="skill-item">
+                <img src="./assets/icons/id.svg" alt="" aria-hidden="true" />
+                <span>Adobe<br />Layout Design</span>
+              </div>
+              <div class="skill-item">
+                <img src="./assets/icons/ps.svg" alt="" aria-hidden="true" />
+                <span>Adobe<br />Photoshop</span>
+              </div>
+            </div>
+            <div class="skill-column skill-column--ui">
+              <div class="skill-block">
+                <p class="skill-label">UI Design</p>
+                <div class="skill-item">
+                  <img src="./assets/icons/xd.svg" alt="" aria-hidden="true" />
+                  <span>Adobe<br />Xd</span>
+                </div>
+              </div>
+              <div class="skill-block">
+                <p class="skill-label">Programming</p>
+                <div class="skill-item">
+                  <img src="./assets/icons/html.svg" alt="" aria-hidden="true" />
+                  <span>HTML</span>
+                </div>
+                <div class="skill-item">
+                  <img src="./assets/icons/java.svg" alt="" aria-hidden="true" />
+                  <span>JAVA</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill-column skill-column--render">
+              <p class="skill-label">Modeling & Rendering</p>
+              <div class="skill-item">
+                <img src="./assets/icons/rhino.svg" alt="" aria-hidden="true" />
+                <span>Rhino</span>
+              </div>
+              <div class="skill-item">
+                <img src="./assets/icons/ks.svg" alt="" aria-hidden="true" />
+                <span>Keyshot</span>
+              </div>
+              <div class="skill-item">
+                <img src="./assets/icons/ue.svg" alt="" aria-hidden="true" />
+                <span>Unreal Engine 5</span>
+              </div>
+            </div>
+            <div class="skill-column skill-column--ai">
+              <p class="skill-label">AI Tech</p>
+              <div class="skill-item">
+                <img src="./assets/icons/arti.svg" alt="" aria-hidden="true" />
+                <span>AIGC &amp; Vibe Coding<br /><em>(GPT / Midjourney / Codex)</em></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <section id="projects" class="work page-shell">
+        <div class="section-heading section-heading--split reveal">
+          <div>
+            <p class="eyebrow">02 / Projects</p>
+            <h2>Selected Projects</h2>
+          </div>
+          <p>
+            Selected case studies spanning connected products, generative identity,
+            data storytelling and brand experience.
+          </p>
+        </div>
+
+        <article class="project project--wide reveal" data-project="cubeye">
+          <div class="project__media">
+            <img src="./assets/portfolio/cubeye-hero.jpg" alt="Cubeye surveillance camera for 3D printing" />
+          </div>
+          <div class="project__info">
+            <p class="mono">01 / PRODUCT · UI · BRAND</p>
+            <h3>Cubeye</h3>
+            <p>A surveillance camera for 3D printing, designed to monitor progress, detect printing issues, and reduce wasted time and materials through flexible positioning and remote app control.</p>
+            <button class="project__open" type="button">View project <span>↗</span></button>
+          </div>
+        </article>
+
+        <div class="work__pair">
+          <article class="project reveal" data-project="notional">
+            <div class="project__media">
+              <img src="./assets/portfolio/notional-hero.png" alt="Notional generative identity project" />
+            </div>
+            <div class="project__info">
+              <p class="mono">02 / GENERATIVE · AI · WEB</p>
+              <h3>Notional</h3>
+              <p>Facial data translated into a unique personal pattern through a rule-based generative system.</p>
+              <button class="project__open" type="button">View project <span>↗</span></button>
+            </div>
+          </article>
+
+          <article class="project reveal" data-project="afghanistan">
+            <div class="project__media">
+              <img class="project__image--afghanistan" src="./assets/portfolio/afghanistan-hero.png" alt="Statistics about combat in Afghanistan data visualization poster" />
+            </div>
+            <div class="project__info">
+              <p class="mono">03 / DATA VISUALIZATION</p>
+              <h3>Statistics About Combat in Afghanistan</h3>
+              <p>A layered visual narrative mapping conflict statistics from 2007–2019 into one circular information system.</p>
+              <button class="project__open" type="button">View project <span>↗</span></button>
+            </div>
+          </article>
+        </div>
+
+        <article class="project project--wide project--reverse reveal" data-project="snail">
+          <div class="project__media">
+            <img src="./assets/portfolio/snail-06-marketing.png" alt="Snail Dwelling brand applications and digital product" />
+          </div>
+          <div class="project__info">
+            <p class="mono">04 / BRAND · UI</p>
+            <h3>Snail Dwelling</h3>
+            <p>A housing platform identity built around warmth, movement and the idea of carrying home with you.</p>
+            <button class="project__open" type="button">View project <span>↗</span></button>
+          </div>
+        </article>
+
+        <div id="local-brand" class="local-brand project-local-strip reveal" aria-label="Local brand projects">
+          <div class="brand-selector" aria-label="Upcoming local brand project selector">
+            <a class="brand-tile brand-tile--local-01" href="#local-brand" aria-label="Local Project 1: Fulsnd Fitness">
+              <span class="brand-tile__logo">
+                <img class="brand-tile__outline" src="./assets/fulsnd-logo-outline.svg" alt="" />
+                <img class="brand-tile__fill" src="./assets/fulsnd-logo-fill.svg" alt="" />
+              </span>
+              <i>Local Project 1: Fulsnd Fitness</i>
+            </a>
+            <a class="brand-tile brand-tile--hfgc" href="#local-brand" aria-label="Local Project 2: Hamilton Fighting Game Community">
+              <span class="brand-tile__logo">
+                <img class="brand-tile__outline" src="./assets/hfgc-logo-outline.svg" alt="" />
+                <img class="brand-tile__fill" src="./assets/hfgc-logo-fill.svg" alt="" />
+              </span>
+              <i>Local Project 2: Hamilton Fighting Game Community</i>
+            </a>
+            <div class="brand-tile brand-tile--disabled" aria-label="Local brand project coming soon">
+              <span class="brand-tile__logo brand-tile__logo--placeholder">
+                <span></span>
+              </span>
+              <i>COMING SOON</i>
+            </div>
+          </div>
+        </div>
+
+        <div class="experiments project-extension">
+          <div class="section-heading section-heading--split reveal">
+            <div>
+              <p class="eyebrow">Extended Practice</p>
+              <h2>Objects, images and speculative interfaces.</h2>
+            </div>
+            <p>
+              Industrial design remains a useful second language: it keeps my digital
+              work grounded in form, material and real human use.
+            </p>
+          </div>
+
+          <div class="archive-grid">
+            <figure class="archive-card archive-card--tall reveal" data-project="breakthrough" tabindex="0" role="button" aria-label="Open Breakthrough project image">
+              <img src="./assets/portfolio/breakthrough-hero.png" alt="Breakthrough electric concept car design" />
+              <figcaption><span>Breakthrough</span><small>Mobility / Industrial Design</small></figcaption>
+            </figure>
+            <figure class="archive-card reveal" data-project="emomask" tabindex="0" role="button" aria-label="Open Emo-Mask project image">
+              <img src="./assets/portfolio/emomask-hero-card.png" alt="Emotion-reactive mask industrial design" />
+              <figcaption><span>Emo-Mask</span><small>Wearable / Interaction</small></figcaption>
+            </figure>
+            <figure class="archive-card reveal" data-project="alienwareWalkman" tabindex="0" role="button" aria-label="Open Alienware Walkman project images">
+              <img src="./assets/portfolio/alienware-walkman-hero.png" alt="Alienware-inspired portable music player" />
+              <figcaption><span>Alienware Walkman</span><small>Product / 3D</small></figcaption>
+            </figure>
+            <figure class="archive-card archive-card--wide reveal" data-project="twentyThousandLeagues" tabindex="0" role="button" aria-label="Open Twenty Thousand Leagues Under the Sea project image">
+              <img src="./assets/portfolio/twenty-thousand-leagues-hero.png" alt="Twenty Thousand Leagues Under the Sea book cover design" />
+              <figcaption><span>20,000 Leagues Under the Sea</span><small>Editorial / Visual Design</small></figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section id="advantages" class="advantages page-shell">
+        <div class="section-heading section-heading--split reveal">
+          <div>
+            <p class="eyebrow">03 / Advantages</p>
+            <h2>What I bring beyond design execution.</h2>
+          </div>
+          <p>
+            A combination of cross-market resources, broad design range and practical
+            production thinking—useful for teams that need both ideas and hands-on support.
+          </p>
+        </div>
+
+        <div class="advantage-grid">
+          <article class="advantage-card reveal">
+            <span class="mono">01 / China-NZ Network</span>
+            <h3>Cross-market sourcing support.</h3>
+            <p>
+              With connections across New Zealand and China, I can help communicate with
+              manufacturers, suppliers, shops and local service partners to explore more
+              cost-efficient production or rollout options.
+            </p>
+          </article>
+
+          <article class="advantage-card reveal">
+            <span class="mono">02 / Multidisciplinary Range</span>
+            <h3>One designer, multiple design languages.</h3>
+            <p>
+              My practice spans visual identity, brand systems, UI, AI-assisted workflows,
+              3D visualization and industrial design, so I can connect different parts of
+              a project instead of treating them as separate tasks.
+            </p>
+          </article>
+
+          <article class="advantage-card reveal">
+            <span class="mono">03 / Cost-aware Making</span>
+            <h3>Design with production in mind.</h3>
+            <p>
+              I think about materials, suppliers, formats and implementation early, helping
+              creative decisions stay aligned with budget, timeline and real-world use.
+            </p>
+          </article>
+
+          <article class="advantage-card reveal">
+            <span class="mono">04 / Flexible Team Support</span>
+            <h3>Useful across adjacent business needs.</h3>
+            <p>
+              Beyond a single design brief, I can support presentation decks, product visuals,
+              campaign assets, interface mockups and communication materials when a team needs
+              extra creative capacity.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="contact page-shell">
+        <div class="contact__signal mono">04 / Contact</div>
+        <h2 class="reveal">Have a project, role<br />or strange new idea?</h2>
+        <div class="contact__bottom reveal">
+          <a href="mailto:barry19x@gmail.com">barry19x@gmail.com <span>↗</span></a>
+          <div>
+            <p>Hamilton, New Zealand</p>
+            <p>Open to freelance & full-time opportunities</p>
+          </div>
+        </div>
+        <div class="contact__mark logo-mark" aria-hidden="true">
+          <img src="./assets/logo.svg" alt="" />
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer mono">
+      <span>© 2026 BARRY XU</span>
+      <span>DESIGNED AS A LIVING SYSTEM</span>
+      <a href="#top">BACK TO TOP ↑</a>
+    </footer>
+
+    <dialog class="project-dialog">
+      <button class="dialog-close" type="button" aria-label="Close project">CLOSE ×</button>
+      <div class="dialog-content"></div>
+    </dialog>
+  </body>
+</html>
